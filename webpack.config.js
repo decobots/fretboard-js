@@ -4,7 +4,7 @@ module.exports = {
     entry: './src/index.js', // Adjust if the entry point is different
     output: {
         filename: 'fretboard.min.js',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'output'),
         library: 'Fretboard',
         libraryTarget: 'umd',
     },
