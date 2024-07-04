@@ -6,8 +6,8 @@ module.exports = {
   slide: require('./slide'),
   stepAndSlide: require('./stepAndSlide'),
 
-  getPitchSet: require('./chord'),
-  getPitchClassSet: require('./chord'),
-  getChord: require('./chord'),
-  compareToChord: require('./chord'),
+  getPitchSet: require('./chord').getPitchSet,
+  getPitchClassSet: require('./chord').getPitchClassSet,
+  getChord: require('./chord').getChord,
+  compareToChord: require('./chord').compareToChord,
 }
